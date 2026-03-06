@@ -44,6 +44,16 @@ export function Navigation() {
               Services
             </Link>
             <Link
+              to="/join-our-team"
+              className={`transition-colors ${
+                isActive("/join-our-team")
+                  ? "text-[#D946A6] font-medium"
+                  : "text-gray-700 hover:text-[#D946A6]"
+              }`}
+            >
+              Join Our Team
+            </Link>
+            <Link
               to="/booking"
               className={`px-6 py-2 bg-[#1E5DB8] text-white rounded-full hover:bg-[#1a4da0] transition-colors ${
                 isActive("/booking") ? "ring-2 ring-[#D946A6]" : ""
@@ -89,6 +99,15 @@ export function Navigation() {
             }`}
           >
             Services
+          </Link>
+          <Link
+            to="/join-our-team"
+            onClick={() => setMenuOpen(false)}
+            className={`text-lg font-medium transition-colors ${
+              isActive("/join-our-team") ? "text-[#D946A6]" : "text-gray-700"
+            }`}
+          >
+            Join Our Team
           </Link>
           <Link
             to="/booking"

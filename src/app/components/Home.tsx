@@ -3,10 +3,14 @@ import { useEffect, useRef, useState } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import heroImage from "figma:asset/2a393b41b890eae9e9e1460e80d0b400402ad3b4.png";
 import cleanerImage from "figma:asset/8c18a438f5f24d71f579a6b569b5ba3c8aca25e7.png";
-import bedroomImage from "figma:asset/7432ef2277980f43e65c4644406399b6a5b78b08.png";
-import livingRoomImage from "figma:asset/b943dc9adccb46413addcfeaaa4f90f524b914a2.png";
-import kitchenImage from "figma:asset/a76108464d9ba10bfe5a20878ed0ed65e2511954.png";
-import bathroomImage from "figma:asset/c9288b60972c33675c87f64ac0084a6aabfea743.png";
+// @ts-ignore
+import house1Image from "figma:asset/house1.jpg";
+// @ts-ignore
+import house2Image from "figma:asset/house2.jpg";
+// @ts-ignore
+import house3Image from "figma:asset/house3.jpg";
+// @ts-ignore
+import house4Image from "figma:asset/house4.jpg";
 import cleaningSuppliesImage from "figma:asset/fa9331fb7fea5bb9af1f060e0519c7f987b0810b.png";
 import spaceCollageImage from "figma:asset/f9f53a9939c851fefe594d0ac22a6b0e1c7a4eac.png";
 
@@ -142,23 +146,23 @@ export function Home() {
             <Animate>
               <div className="grid grid-cols-2 gap-3">
                 <img
-                  src={livingRoomImage}
-                  alt="Clean living room"
+                  src={house1Image}
+                  alt="Clean home"
                   className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src={kitchenImage}
-                  alt="Kitchen"
+                  src={house2Image}
+                  alt="Clean home"
                   className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src={bedroomImage}
-                  alt="Bedroom"
+                  src={house3Image}
+                  alt="Clean home"
                   className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-lg"
                 />
                 <img
-                  src={bathroomImage}
-                  alt="Bathroom"
+                  src={house4Image}
+                  alt="Clean home"
                   className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-lg"
                 />
               </div>
