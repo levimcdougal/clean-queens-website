@@ -94,7 +94,7 @@ export function Home() {
         </div>
       </section>
 
-      {/* The Clean Queens Standard Section */}
+      {/* The Clean Queens Difference Section */}
       <section className="py-10 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -102,7 +102,7 @@ export function Home() {
             <Animate>
               <div className="space-y-6">
                 <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#1E5DB8] leading-tight">
-                  The Clean Queens Standard for Texas Homes & Businesses
+                  The Clean Queens Difference for Texas Homes & Businesses
                 </h2>
                 <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
                   <p>
