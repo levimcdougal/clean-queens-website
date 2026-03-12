@@ -89,7 +89,7 @@ const benefits: { icon?: string; image?: string; size?: string; title: string; d
 
     title: "Supplies & Equipment Provided",
     description:
-      "Cleaners may use their own supplies and equipment, as is typical for independent contractors. However, we also offer the option to use our professional-grade, eco-friendly cleaning supplies and equipment at no out-of-pocket cost if preferred.",
+      "Cleaners may use their own supplies and equipment, as is typical for independent contractors. Reimbursement options are available for cleaning supplies and equipment purchases.",
   },
   {
     image: locationImage,
@@ -105,7 +105,7 @@ const requirements = [
   "Excellent time management and punctuality",
   "Professional, friendly demeanor with clients",
   "Ability to work independently and as part of a team",
-  "Prior cleaning experience is a plus but not required — we train!",
+  "Prior cleaning experience is a plus but not required.",
 ];
 
 export function JoinTeam() {
