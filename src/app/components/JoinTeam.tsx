@@ -82,14 +82,14 @@ const benefits: { icon?: string; image?: string; size?: string; title: string; d
     size: "w-20 h-auto",
     title: "Growth Opportunities",
     description:
-      "We invest in our people. Start with a few homes and grow your schedule over time by taking on more clients and building a steady cleaning route.",
+      "We invest in our people. Start with a few clients and grow your schedule over time by taking on more clients and building a steady cleaning route.",
   },
   {
     image: broomImage,
 
     title: "Supplies & Equipment Provided",
     description:
-      "Cleaners may use their own supplies and equipment, as is typical for independent contractors. Reimbursement options are available for cleaning supplies and equipment purchases.",
+      "Cleaners may use their own supplies and equipment, as is typical for independent contractors. Reimbursement options are available for approved cleaning supplies, equipment purchases, and eligible mileage incurred while traveling between jobs.",
   },
   {
     image: locationImage,
@@ -238,10 +238,10 @@ export function JoinTeam() {
                     <div>
                       <p className="font-semibold text-[#1E5DB8]">Email Us</p>
                       <a
-                        href="mailto:Guy@cleanqueens.net"
+                        href="mailto:hiring@cleanqueens.net"
                         className="text-gray-700 hover:text-[#1E5DB8] transition-colors font-medium break-all"
                       >
-                        Guy@cleanqueens.net
+                        hiring@cleanqueens.net
                       </a>
                     </div>
                   </div>
@@ -260,13 +260,6 @@ export function JoinTeam() {
             <p className="text-base text-white/90">Let Clean Queens transform your space. Book your service today!</p>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
-            <Link
-              to="/booking"
-              className="inline-block px-8 py-2.5 bg-[#D946A6] text-white rounded-full hover:bg-[#c23690] transition-colors text-lg font-semibold"
-            >
-              Book Your Service Now
-            </Link>
-            <div className="hidden sm:block w-px h-10 bg-white/30" />
             <div className="text-center">
               <p className="text-white text-base font-semibold leading-none">Call or Text Us</p>
               <a
@@ -276,6 +269,31 @@ export function JoinTeam() {
                 903-530-1475
               </a>
             </div>
+
+            <div className="hidden sm:block w-px h-10 bg-white/30" />
+
+            <Link
+              to="/booking"
+              className="inline-block px-8 py-2.5 bg-[#D946A6] text-white rounded-full hover:bg-[#c23690] transition-colors text-lg font-semibold"
+            >
+              Book Your Service Now
+            </Link>
+
+            <div className="hidden sm:block w-px h-10 bg-white/30" />
+
+            <div className="text-center">
+              <p className="text-white text-base font-semibold leading-none">Email Us</p>
+              <a
+                href="mailto:info@cleanqueens.com"
+                className="text-lg font-bold text-white hover:text-white/80 transition-colors"
+              >
+                info@cleanqueens.com
+              </a>
+            </div>
+          </div>
+
+          <div className="text-center text-white/70 text-xs mt-2">
+            © 2026 Clean Queens. All Rights Reserved.
           </div>
         </div>
       </footer>

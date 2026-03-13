@@ -173,6 +173,20 @@ export function Services() {
 
             {/* Button + phone side by side, centered */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
+              {/* Phone */}
+              <div className="text-center">
+                <p className="text-white text-base font-semibold leading-none">Call or Text Us</p>
+                <a
+                  href="tel:9035301475"
+                  className="text-2xl font-bold text-white hover:text-white/80 transition-colors"
+                >
+                  903-530-1475
+                </a>
+              </div>
+
+              {/* Divider */}
+              <div className="hidden sm:block w-px h-10 bg-white/30" />
+
               <Link
                 to="/booking"
                 className="inline-block px-8 py-2.5 bg-[#D946A6] text-white rounded-full hover:bg-[#c23690] transition-colors text-lg font-semibold"
@@ -183,14 +197,14 @@ export function Services() {
               {/* Divider */}
               <div className="hidden sm:block w-px h-10 bg-white/30" />
 
-              {/* Phone */}
+              {/* Email */}
               <div className="text-center">
-                <p className="text-white text-base font-semibold leading-none">Call or Text Us</p>
+                <p className="text-white text-base font-semibold leading-none">Email Us</p>
                 <a
-                  href="tel:9035301475"
-                  className="text-2xl font-bold text-white hover:text-white/80 transition-colors"
+                  href="mailto:info@cleanqueens.com"
+                  className="text-lg font-bold text-white hover:text-white/80 transition-colors"
                 >
-                  903-530-1475
+                  info@cleanqueens.com
                 </a>
               </div>
             </div>
